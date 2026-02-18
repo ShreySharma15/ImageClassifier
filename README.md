@@ -5,7 +5,7 @@ This is a deep learning project built using **TensorFlow** and **Streamlit**, de
 This project demonstrates training a **Convolutional Neural Network** and deploying it as a **web app** using Streamlit.
 
 You can access the live demo here:
- 👉 [**ShadowFox Web App**](https://shadowfox-image-classifier.streamlit.app/) 
+ 👉 [**CIFAR-10 Image Classifier**](https://shadowfox-image-classifier.streamlit.app/) 
 
 ## 🚀 Features
 
