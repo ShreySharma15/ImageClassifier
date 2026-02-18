@@ -37,7 +37,7 @@ if uploaded_file is not None:
         preds = model.predict(img_array)
         predicted_class = class_names[np.argmax(preds)]
         confidence = np.max(preds)
-        if confidence < 0.4:
+        if confidence < 0.5:
             st.warning("This image does not belong to any of the 10 classes.")
         else:
             predicted_class = class_names[np.argmax(preds)]
